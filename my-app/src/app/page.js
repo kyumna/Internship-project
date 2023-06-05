@@ -30,8 +30,8 @@ export default function Home() {
         {users.map((user) => (
           <div className='w-64 h-64 p-2 m-4 border-1 border-gray-300 shadow-xl flex flex-wrap rounded-2xl cursor-pointer hover:transform hover:scale-110 transition-all duration-300' key={user.id}>
             <h2  className="">{user.name}</h2>
-            <p className=''>Email: {user.email}</p>
-            <p className=''>Phone: {user.phone}</p>
+            <p className=''><span className='font-bold'>Email</span>: {user.email}</p>
+            <p className=''><span className='font-bold'>Phone</span>: {user.phone}</p>
           </div>
         ))}
       </div>
