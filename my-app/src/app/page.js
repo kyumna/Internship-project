@@ -1,20 +1,24 @@
 
-"use client"
+"use client" 
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
 
 export default function Home() {
-
+// users will hold the response from api
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
+    // this function will fetchh data from api
     const fetchUsers = async () => {
       try {
+        //fetching data
         const response = await fetch('https://jsonplaceholder.typicode.com/users');
         const data = await response.json();
+        // setting value of "users" to fetched data
         setUsers(data);
       } catch (error) {
+        //if error occurs in fetching this block will be executed
         console.log('Error fetching data:', error);
       }
     };
@@ -23,6 +27,7 @@ export default function Home() {
   }, []);
 
   return (
+    //rendering the fetched data on screen
     <div className='bg-pastelPink'>
     <Link href="/Post" className='float-right mr-2 pt-2 font-bold'>See Posts</Link>
       <h1 className='text-center  text-2xl font-bold pb-2 pt-2 '>Users</h1>
