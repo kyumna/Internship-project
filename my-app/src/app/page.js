@@ -1,6 +1,6 @@
 
 "use client"
-
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
 
@@ -24,7 +24,7 @@ export default function Home() {
 
   return (
     <div className='bg-pastelPink'>
-  
+    <Link href="/Post" className='float-right mr-2 pt-2 font-bold'>See Posts</Link>
       <h1 className='text-center  text-2xl font-bold pb-2 pt-2 '>Users</h1>
       <div className='flex flex-wrap items-center justify-center h-screen '>
         {users.map((user) => (
