@@ -2,11 +2,11 @@
 
 # Running project
 Clone the repository using link https://github.com/kyumna/Internship-project.git
-Open the project in your preffered ide (VS code recommended)
-Open your terminal and navigate to the project directory
+Open the project in your preffered ide (VS code recommended).
+Open your terminal and navigate to the project directory.
 
 Write "npm i" in terminal to install all the dependencies.
-Write "npm run dev " to launch the project
+Write "npm run dev " to launch the project.
 
 # Running Test
 Tests are done using jest.
