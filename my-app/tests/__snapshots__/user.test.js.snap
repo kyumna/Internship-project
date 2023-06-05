@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Posts Renders without crashing 1`] = `
+<div>
+  <div
+    class="bg-pastelPink"
+  >
+    <a
+      class="float-right mr-2 pt-2 font-bold"
+      href="/Post"
+    >
+      See Posts
+    </a>
+    <h1
+      class="text-center  text-2xl font-bold pb-2 pt-2 "
+    >
+      Users
+    </h1>
+    <div
+      class="flex flex-wrap items-center justify-center h-screen "
+    >
+      <div
+        class="w-64 h-64 p-2 m-4 border-1 border-gray-300 shadow-xl flex flex-wrap rounded-2xl cursor-pointer hover:transform hover:scale-110 transition-all duration-300"
+      >
+        <h2
+          class=""
+        >
+          Leanne Graham
+        </h2>
+        <p
+          class=""
+        >
+          Email: 
+        </p>
+        <p
+          class=""
+        >
+          Phone: 
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

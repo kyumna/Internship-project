@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Posts Renders without crashing 1`] = `
+<div>
+  <div
+    class="bg-pastelPink"
+  >
+    <a
+      class="float-right mr-2 pt-2 font-bold"
+      href="/"
+    >
+      See Users
+    </a>
+    <h1
+      class="text-center  text-2xl font-bold pb-2 pt-2 "
+    >
+      Posts
+    </h1>
+    <div
+      class="w-46 p-2 m-4 border-1 border-gray-300 shadow-xl  rounded-2xl bg-white cursor-pointer hover:transform hover:scale-105 transition-all duration-300"
+      data-testid="post"
+    >
+      <div
+        class="block"
+      >
+        <span
+          class="font-bold"
+        >
+          Title
+        </span>
+        : 
+        sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+      </div>
+      <div
+        class="block"
+      >
+        <span
+          class="font-bold"
+        >
+          Body
+        </span>
+        : 
+        quia et suscipit
+suscipit recusandae consequuntur expedita et cum
+reprehenderit molestiae ut ut quas totam
+nostrum rerum est autem sunt rem eveniet architecto
+      </div>
+    </div>
+  </div>
+</div>
+`;
