@@ -26,5 +26,5 @@ Navigation is implemented using Link in Next.js
 
 I haven't applied any extra ordinary designing, since the time alloted was less plus I focused on the coding and testing part which I think were High level requirements. I have make sure to showcase my skills by incorporating as many functionalities as I could, keeping in view thw timing constraint.
 
-# I hope I will get hired :)
+
 
